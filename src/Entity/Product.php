@@ -1,14 +1,10 @@
 <?php
-
-// src/Entity/Product.php
 namespace App\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 
 class Product
 {
-    // ...
-
     /**
      * @ORM\Column(type="string")
      */
