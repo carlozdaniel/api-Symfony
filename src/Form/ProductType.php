@@ -1,5 +1,4 @@
 <?php
-// src/Form/ProductType.php
 namespace App\Form;
 
 use App\Entity\Product;
@@ -38,11 +37,8 @@ class ProductType extends AbstractType
                         'mimeTypesMessage' => 'Please upload a valid PDF document',
                     ])
                 ],
-            ])
-            // ...
-        ;
+            ]);
     }
-
     public function configureOptions(OptionsResolver $resolver)
     {
         $resolver->setDefaults([
